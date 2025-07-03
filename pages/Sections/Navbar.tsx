@@ -61,7 +61,7 @@ export default function Navbar() {
               href="#"
               className="px-7 py-1 text-black border border-black transition-all ease-in hover:bg-black hover:text-white hover:border-white rounded-full hidden md:block"
             >
-              Get Started
+              Let's Started
             </a>
             <a
               className="bg-black p-1 rounded-full justify-center"
