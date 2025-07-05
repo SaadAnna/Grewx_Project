@@ -24,7 +24,7 @@ export default function Hero() {
 
                         <h1 className="text-sky-950 font-medium text-base">
                             {" "}
-                            Welcome to a Modern Financial Experience
+                            Welcome to a Modern Financial Experience.
                         </h1>
                     </div>
                     <h1 className="text-black lg:text-6xl text-5xl font-medium ">
