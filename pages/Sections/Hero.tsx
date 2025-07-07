@@ -27,7 +27,7 @@ export default function Hero() {
                             Welcome to a Modern Financial Experience.
                         </h1>
                     </div>
-                    <h1 className="text-black lg:text-6xl text-5xl font-medium ">
+                    <h1 className="text-black lg:text-6xl text-5xl font-semibold ">
                         Revolutionize Your Banking Experience
                     </h1>
                     <p className="text-neutral-700 font-medium text-base">
