@@ -1,5 +1,5 @@
-
-
+import FeatureImage from "@/public/FeatureImage.png";
+import Image from "next/image";
 const Features = [
   {
     id: 1,
@@ -82,12 +82,12 @@ export default function Advantages() {
     <section className="py-24">
       <div className="px-4 lg:max-w-5xl max-w-4xl mx-auto flex flex-col items-center gap-14">
         <div className="flex flex-col text-center gap-2 max-w-5xl mx-auto ">
-          <h1 className="text-4xl lg:text-5xl text-black font-medium">
-            Discover The Advantages Of Banking With Us.
+          <h1 className="text-4xl lg:text-5xl text-black font-semibold">
+            Discover The Advantages Of <br/> Banking With Us.
           </h1>
           <p className="text-neutral-700 font-medium text-base max-w-2xl mx-auto">
             Explore The uniique benefits of our digital banking designed to
-            enhace your financial experience.
+            enhace <br/> your financial experience.
           </p>
           <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {Features.map((feature) => (
@@ -105,29 +105,34 @@ export default function Advantages() {
               </div>
             ))}
           </div>
-          <div className="mt-10 bg-neutral-100 rounded-xl p-4 grid grid-cols-1 gap-20 sm:grid-cols-2 lg:grid-cols-2">
-
-          <div className="flex flex-col text-start gap-2 ">
-
-          <div className=" w-fit bg-yellow-500 rounded-full p-1 justify-center">
-          <svg className="w-6 h-6 text-gray-950 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 9h13a5 5 0 0 1 0 10H7M3 9l4-4M3 9l4 4"/>
+          <div className="mt-10 bg-neutral-100 rounded-xl p-4 grid grid-cols-1 gap-11 lg:gap-52 sm:grid-cols-2 lg:grid-cols-2">
+            <div className="flex flex-col text-start gap-2 ">
+              <div className=" w-fit bg-yellow-500 rounded-lg p-2 justify-center">
+              <svg className="w-6 h-6 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 8v8m0-8h8M8 8H6a2 2 0 1 1 2-2v2Zm0 8h8m-8 0H6a2 2 0 1 0 2 2v-2Zm8 0V8m0 8h2a2 2 0 1 1-2 2v-2Zm0-8h2a2 2 0 1 0-2-2v2Z"/>
 </svg>
 
-          </div>
-          <h1 className="text-2xl lg:text-3xl text-gary-950 max-w-2xl font-medium">
-            Free Transfere Anywhere in the World
-          </h1>
-          <p className="text-neutral-600 font-medium text-base max-w-2xl mx-auto">
-          Send and receive money worldwide with zero transfer fees. Our secure international payment system lets you transfer funds instantly from anywhere, anytime. Fast, reliable,
-          </p>
-          <a
-              href="#"
-              className="px-2 w-fit py-1 text-black border border-black transition-all ease-in hover:bg-black hover:text-white hover:border-white rounded-full"
-            >
+              </div>
+              <h1 className="text-2xl lg:text-3xl text-gary-950 max-w-2xl font-medium">
+                Free Transfere Anywhere in the World
+              </h1>
+              <p className="text-neutral-600 font-medium text-base max-w-2xl mx-auto">
+                Send and receive money worldwide with zero transfer fees. Our
+                secure international payment system lets you transfer funds
+                instantly from anywhere, anytime. Fast, reliable,
+              </p>
+              <a
+                href="#"
+                className="px-2 w-fit py-1 text-black border border-black transition-all ease-in hover:bg-black hover:text-white hover:border-white rounded-full"
+              >
                 Coustomize Your Card
-            </a>
-          </div>
+              </a>
+            </div>
+            <Image
+              src={FeatureImage}
+              alt="Feature Image"
+              className="w-80 h-80 object-cover"
+            />
           </div>
         </div>
       </div>
