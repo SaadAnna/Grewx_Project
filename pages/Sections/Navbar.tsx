@@ -32,7 +32,7 @@ export default function Navbar() {
               </svg>
 
               <h1 className="text-xl hidden md:block text-center  justify-center items-center text-black font-medium ">
-                Grewx
+                Newt
               </h1>
             </div>
           </div>
@@ -47,8 +47,8 @@ export default function Navbar() {
                 Services
               </a>
 
-              <a href="#pricing" className="text-black text-medium text-lg">
-                Pricing
+              <a href="#faq" className="text-black text-medium text-lg">
+                FaQ
               </a>
               <a href="#contact" className="text-black text-medium text-lg">
                 Contact
