@@ -2,7 +2,7 @@ import ContactImage from "@/public/ContactImage.png";
 import Image from "next/image";
 export default function Contact() {
   return (
-    <section className="py-24">
+    <section className="py-24" id="contact">
       <div className="px-4 lg:max-w-5xl max-w-4xl mx-auto">
 
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-52 gap-10 items-center justify-center p-3.5 bg-neutral-100 rounded-xl">

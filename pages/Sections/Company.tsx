@@ -9,7 +9,7 @@ import Image from "next/image";
 export default function Company() {
   return (
     <section className="py-14">
-      <div className="px-4  lg:max-w-7xl max-w-5xl mx-auto w-auto h-fit p-10 bg-gray-950 ">
+      <div className="px-4  lg:max-w-full max-w-5xl mx-auto w-auto h-fit p-10 bg-gray-950 ">
         <div className="flex flex-wrap lg:gap-20 gap-10 items-cente justify-center">
           <Image
             alt="company image"
