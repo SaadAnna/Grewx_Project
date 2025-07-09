@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
-    <section className="py-24">
-      <div className="max-w-6xl px-4 text-center py-24 mx-auto">
+    <section className="mt-10">
+      <div className="max-w-full px-4 text-center py-24 mx-auto">
         <footer className="bg-gray-900 flex flex-col gap-10 p-5 rounded-xl overflow-hidden">
           <div className="mt-2 grid grid-cols-1 gap-10 lg:gap-24 sm:grid-cols-2 lg:grid-cols-2">
-         <div className="flex flex-col text-start mt-7">
+         <div className="flex flex-col text-start ">
           <h1 className="text-3xl font-semibold text-white">
               Secure Digital Banking              </h1>
               <p className="text-neutral-400 text-sm">
@@ -33,12 +33,11 @@ export default function Footer() {
             </div>
             </div>
           </div>
-          <div className="flex flex-wrap gap-52 bg-white p-4 rounded-lg">
-
-          <div className="flex flex-col text-start gap-2 max-w-2xl">
+          <div className="flex flex-wrap items-center gap-14 lg:gap-40 bg-white p-4 rounded-lg">
+          <div className="flex flex-col text-start gap-1 max-w-lg">
               <h1 className="text-xl font-semibold text-black">
               Subscribe Now             </h1>
-              <p className="text-sm text-gray-500 mt-3">
+              <p className="text-sm text-gray-900">
     We value your privacy. Your email will only be used to send you banking insights and updates. 
     You can unsubscribe at any time. View our <a href="#" className="text-blue-600 hover:underline">Privacy Policy</a>.
             </p>
@@ -47,12 +46,20 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Your email address"
-                className="flex-1 px-4 py-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className=" w-auto h-14 p-2  border bg-white border-gray-300 rounded-l-md focus:outline-none focus:border focus:border-blakc"
               />
-              <button className="bg-blue-600 text-white px-4 py-2 rounded-r-md hover:bg-blue-700 transition-colors">
+              <button className="bg-gray-900 cursor-pointer text-white px-4 py-2 rounded-r-md hover:bg-gray-950 transition-colors">
                 Subscribe
               </button>
             </div>
+          </div>
+          <div className="flex flex-wrap gap-4 items-center border-t  border-gray-400 pt-7">
+
+          <a href="#" className="w-auto h-auto px-11 hover:text-black py-2 text-white rounded-full border border-white cursor-pointer transition-all ease-in-out bg-transparent hover:bg-white">Twiter</a>
+          <a href="#" className="w-auto h-auto px-11 hover:text-black py-2 text-white rounded-full border border-white cursor-pointer transition-all ease-in-out bg-transparent hover:bg-white">Instagram</a>
+          <a href="#" className="w-auto h-auto px-11 hover:text-black py-2 text-white rounded-full border border-white cursor-pointer transition-all ease-in-out bg-transparent hover:bg-white">Youtube</a>
+          <a href="#" className="w-auto h-auto px-11 hover:text-black py-2 text-white rounded-full border border-white transition-all ease-in-out bg-transparent hover:bg-white">Facebook</a>
+          <a  className="w-auto h-auto px-24 py-2 text-black rounded-full border border-white bg-white ">Follow Us Now</a>
           </div>
         </footer>
       </div>
