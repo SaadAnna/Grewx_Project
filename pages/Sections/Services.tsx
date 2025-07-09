@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <section className="py-24">
+    <section className="py-24" id="services">
       <div className="px-4 lg:max-w-5xl max-w-4xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-52 gap-10 items-center justify-center">
           <div className="flex flex-col text-start gap-2 w-auto lg:w-[500px] ">
