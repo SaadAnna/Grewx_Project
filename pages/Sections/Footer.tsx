@@ -10,7 +10,7 @@ export default function Footer() {
               <p className="text-neutral-400 text-sm">
               We&apos;re redefining banking for the digital age. Our mission is to provide 
               simple, secure, and accessible financial services that put you in control. 
-              No hidden fees, no paperwork - just modern banking that works for you.            
+              No hidden fees, just modern banking that works for you.            
                 </p>
           </div>
             <div className="grid grid-cols-1 lg:gap-2 gap-4 sm:grid-cols-2 lg:grid-cols-3">
