@@ -48,7 +48,7 @@ const Features = [
       </svg>
     ),
     details:
-      "Complete banking solutions including checking, savings, loans, and investments. Mobile banking, online transfers, and bill pay with competitive rates and personalized service.",
+      "Complete banking solutions including checking, savings, and investments. Mobile banking, online transfers, and bill pay with competitive rates and personalized service.",
   },
   {
     id: 3,
