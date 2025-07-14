@@ -31,7 +31,7 @@ export default function FAQSection() {
       {
         question: "How quickly do transfers between accounts process?",
         answer:
-          "Transfers between your accounts with us are instant. External transfers typically take 1-3 business days depending on the receiving bank.",
+          "Transfers between your accounts with us are instant. External transfers typically take 1-3 business days depending in the receiving bank.",
       },
       {
         question: "What security features do you offer?",
